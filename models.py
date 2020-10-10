@@ -13,7 +13,7 @@ class ParkingLot:
         self.size=size
         self.slots={}
         self.available_slots=[i for i in range(1, size+1)]
-        heapq.heapify(self.available_slots)
+        heapq.heapify(self.available_slots) # use of heap/priority queue instead of normal list as it is more intuitive and offers better time complexity
 
     # free the parking slot
     def clear_space(self, slot_num):
