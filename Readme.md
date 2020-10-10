@@ -19,6 +19,14 @@ For Linux:
 $ python3 main.py
 ```
 
+EDIT:
+  - Program is changed so that commandline arguments for input and output file can be given so now you have to execute
+
+```sh
+$ python3 main.py <input_file> <output_file>
+```
+
+
 For MacOS:
   - All the steps are going to be same the only requirements for running the task is Python 3
 
