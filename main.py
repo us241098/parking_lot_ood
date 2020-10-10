@@ -1,10 +1,10 @@
-from models import ParkingLot, AGE_SLOT, AGE_VEHICLE, SLOT_CAR, Vehicle
 
+from models import ParkingLot, AGE_SLOT, AGE_VEHICLE, SLOT_CAR, Vehicle
+import sys
 if __name__ == "__main__":
-    # driver program to take input from the input file and generate a output #
-    
-    output_file="output.txt"       # output file
-    read_input=open("input.txt", "r")  # input file
+    # driver program to take input from the input file and generate a output
+    output_file=sys.argv[2]       # output file
+    read_input=open(sys.argv[1], "r")  # input file
     writer = open(output_file, "w")
     lines = read_input.readlines()
 
